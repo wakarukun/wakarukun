@@ -1,0 +1,3 @@
+$(function() {
+  $("#samplesTable").tablesorter();
+});
