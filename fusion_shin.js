@@ -87,7 +87,8 @@ fusioncolor = "ff0000"
  case "gv":
  var a = 23;
  var b = 24;
- fusioncolor = "286f2c";
+    fusioncolor = "286f2c";
+    break;
  case "vk":
  var a = 20;
  var b = 24;
