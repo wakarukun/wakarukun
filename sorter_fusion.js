@@ -1,3 +1,3 @@
 $(function() {
-  $("#samplesTable").tablesorter();
+  $("#fusionTable").tablesorter();
 });
