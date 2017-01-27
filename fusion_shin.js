@@ -184,14 +184,8 @@ function fusion_shin(Obj) {
     tbody.appendChild(tdbody);
     tables.appendChild(thead);
     tables.appendChild(tbody);
-    var script1 = document.createElement('script');
-    script1.setAttribute("type", "text/javascript");
-    script1.setAttribute("src", "https://wakarukun.github.io/wakarukun/jquery.tablesorter.min.js");
-    var script = document.createElement('script');
-    script.setAttribute("src", "https://wakarukun.github.io/wakarukun/sorter_fusion.js");
-    fusiontable.appendChild(script1);
+    JSSyncLoad(['https://wakarukun.github.io/wakarukun/jquery.tablesorter.min.js', "https://wakarukun.github.io/wakarukun/sorter_fusion.js"]);
     fusiontable.appendChild(title);
-    fusiontable.appendChild(script);
     fusiontable.appendChild(tables);
     var clone = document.getElementById("list").cloneNode(false); //ガワだけ複製して…
     document.getElementById("list").parentNode.replaceChild(clone, document.getElementById("list")); //すげ替え。
