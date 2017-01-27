@@ -164,13 +164,13 @@ function fusion_shin(Obj) {
             sum_value.appendChild(document.createTextNode(sum));
             var name1 = document.createElement('td');
             var name1font = document.createElement('font');
-            name1font.appendChild(document.createTextNode(card[a][p][6] + '（' + card[a][p][5] + '）'));
+            name1font.appendChild(document.createTextNode(card[a][p][6] + '(' + card[a][p][5] + ')'));
             name1font.setAttribute("color", card[a][p][7]);
             name1.appendChild(name1font);
             var name2 = document.createElement('td');
             var name2font = document.createElement('font');
             name2font.setAttribute("color", card[b][q][7]);
-            name2font.appendChild(document.createTextNode(card[b][q][6] + '（' + card[b][q][5] + '）'));
+            name2font.appendChild(document.createTextNode(card[b][q][6] + '(' + card[b][q][5] + ')'));
             name2.appendChild(name2font);
             fragment.appendChild(sum_value);
             fragment.appendChild(name1);
