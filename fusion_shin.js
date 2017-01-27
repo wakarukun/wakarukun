@@ -189,8 +189,8 @@ function fusion_shin(Obj) {
     script1.setAttribute("src", "https://wakarukun.github.io/wakarukun/jquery.tablesorter.min.js");
     var script = document.createElement('script');
     script.setAttribute("src", "https://wakarukun.github.io/wakarukun/sorter_fusion.js");
-    fusiontable.appendChild(script1);
-    fusiontable.appendChild(script);
+    //fusiontable.appendChild(script1);
+    //fusiontable.appendChild(script);
     fusiontable.appendChild(title);
     fusiontable.appendChild(tables);
     var clone = document.getElementById("list").cloneNode(false); //ガワだけ複製して…
