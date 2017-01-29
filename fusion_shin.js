@@ -99,6 +99,11 @@ function fusion_shin(Obj) {
             var b = 20;
             fusioncolor = "ff0000";
             break;
+        case "ts":
+            var a = 27;
+            var b = 22;
+            fusioncolor = "ff0000"
+            break;
     }
 
     var fusiontable = document.createDocumentFragment();
