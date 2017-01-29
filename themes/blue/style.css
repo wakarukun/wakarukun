@@ -33,3 +33,18 @@ table.tablesorter thead tr .headerSortDown {
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
 background-color: #8dbdd8;
 }
+
+.scroll-box {
+  overflow-x: auto;
+}
+.scroll-box::-webkit-scrollbar {
+  height: 5px;
+}
+.scroll-box::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: #eee;
+}
+.scroll-box::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #666;
+}
