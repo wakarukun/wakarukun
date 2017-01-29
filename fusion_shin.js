@@ -127,8 +127,10 @@ function fusion_shin(Obj) {
     var gokei = document.createElement('th');
     gokei.appendChild(document.createTextNode('合計'));
     var first = document.createElement('th');
+    first.setAttribute("colspan",2);
     first.appendChild(document.createTextNode(card[a][0][0]));
     var second = document.createElement('th');
+    second.setAttribute("colspan",2);
     second.appendChild(document.createTextNode(card[b][0][0]));
     tbody = document.createElement('tbody');
     thbody.appendChild(hissatsu);
@@ -150,7 +152,7 @@ function fusion_shin(Obj) {
                 } else if (card[a][p][j] < card[b][q][j]) {
                     var better = card[b][q][7];
                 } else {
-                    var better = "00000";
+                    var better = "000000";
                 }
                 var td = document.createElement('td');
                 var tdfont = document.createElement('font');
@@ -167,14 +169,22 @@ function fusion_shin(Obj) {
             name1font.appendChild(document.createTextNode(card[a][p][6] + '(' + card[a][p][5] + ')'));
             name1font.setAttribute("color", card[a][p][7]);
             name1.appendChild(name1font);
+            var waza1 = document.createElement('td');
+            waza1.setAttribute("bgcolor", card[a][p][9]);
+            waza1.appendChild(document.createTextNode(card[a][p][8]));
             var name2 = document.createElement('td');
             var name2font = document.createElement('font');
             name2font.setAttribute("color", card[b][q][7]);
             name2font.appendChild(document.createTextNode(card[b][q][6] + '(' + card[b][q][5] + ')'));
             name2.appendChild(name2font);
+            var waza2 = document.createElement('td');
+            waza2.setAttribute("bgcolor", card[b][q][9]);
+            waza2.appendChild(document.createTextNode(card[b][q][8]));
             fragment.appendChild(sum_value);
             fragment.appendChild(name1);
+            fragment.appendChild(waza1);
             fragment.appendChild(name2);
+            fragment.appendChild(waza2);
             var tr = document.createElement('tr');
             tr.appendChild(fragment);
             tdbody.appendChild(tr);
