@@ -1,13 +1,16 @@
-function gyakubiki() {
+function gyakubiki(flag) {
     index_nub = document.myForm.Maker.selectedIndex;
     O_value = document.myForm.Maker.options[index_nub].value;
     T_value = document.myForm.Maker.options[index_nub].text;
-
-    index_nub2 = document.myForm.Computer.selectedIndex;
-    T_value2 = document.myForm.Computer.options[index_nub2].text;
-
+    if (flag == 0) {
+        index_nub2 = document.myForm.Computer.selectedIndex;
+        T_value2 = document.myForm.Computer.options[index_nub2].text;
+    } else {
+        T_value2 = "個別に選ぶ？";
+    }
     var fusioncolor
     var fusionname
+    var flagship = 0;
     switch (O_value) {
         case "zoffy":
             var a = [0];
@@ -179,7 +182,7 @@ function gyakubiki() {
         titlefont.appendChild(document.createTextNode(fusionname[b_num]));
         title.appendChild(titlefont);
         var tables = document.createElement('table');
-        tables.id = "fusionTable";
+        tables.id = "fusionTable" + b_num;
         tables.className = 'tablesorter';
         var thead = document.createElement('thead');
         var trbody1 = document.createElement('tr');
@@ -319,7 +322,10 @@ function gyakubiki() {
         tbody.appendChild(tdbody);
         tables.appendChild(thead);
         tables.appendChild(tbody);
-        JSSyncLoad(['https://wakarukun.github.io/wakarukun/jquery.tablesorter.min.js', "https://wakarukun.github.io/wakarukun/sorter_fusion.js"]);
+        if (flagship == 0) {
+            JSSyncLoad(['https://wakarukun.github.io/wakarukun/jquery.tablesorter.min.js', "https://wakarukun.github.io/wakarukun/sorter_fusion.js"]);
+            flagship += 1;
+        }
         fusiontable.appendChild(title);
         fusiontable.appendChild(tables);
         if (counter == 0) {
@@ -329,4 +335,5 @@ function gyakubiki() {
         document.getElementById("list").appendChild(fusiontable);
         counter += 1;
     }
+    document.fusion_name.fusion_list.selectedIndex = 0;
 }

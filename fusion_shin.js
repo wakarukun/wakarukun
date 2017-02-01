@@ -205,4 +205,5 @@ function fusion_shin(Obj) {
     var clone = document.getElementById("list").cloneNode(false); //ガワだけ複製して…
     document.getElementById("list").parentNode.replaceChild(clone, document.getElementById("list")); //すげ替え。
     document.getElementById("list").appendChild(fusiontable);
+    document.myForm.Maker.selectedIndex=0;
 }
