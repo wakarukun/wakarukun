@@ -33,5 +33,4 @@ function setMenuItem(n) {
     document.myForm.Computer.options.length = 0;
     for (i = 0; i < itemNum; i++){
         document.myForm.Computer.options[i] = new Option(menuItem[n][i], menuItem[n][i]);
-    }
 }
