@@ -20,5 +20,8 @@ function JSSyncLoad(srces) {
       };
   }
 body = document.getElementsByTagName('body')[0];
-  body.appendChild(sc);
+last_num = document.getElementsByTagName('script').length -1 ;
+last = document.getElementsByTagName('script')[last_num];
+last.textContent = null;
+body.appendChild(sc);
 }

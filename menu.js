@@ -30,7 +30,8 @@ menuItem = [
 
 function setMenuItem(n) {
     itemNum = menuItem[n].length;
-    for (i = 0; i < itemNum; i++) {
+    document.myForm.Computer.options = [];
+    for (i = 0; i < itemNum; i++)
         document.myForm.Computer.options[i] = new Option(menuItem[n][i], menuItem[n][i]);
     }
 }
