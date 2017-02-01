@@ -20,9 +20,9 @@ function gyakubiki(flag) {
             break;
         case "man":
             var a = [1];
-            var b = [26, 17];
-            fusioncolor = ["cc00cc", "666666"];
-            fusionname = ["スペシウムゼペリオン", "スペシウムシュトローム"];
+            var b = [7,8,9 17];
+            fusioncolor = ["cc00cc", "cc00cc", "cc00cc", "666666"];
+            fusionname = ["スペシウムゼペリオン", "スペシウムゼペリオン", "スペシウムゼペリオン", "スペシウムシュトローム"];
             break;
         case "seven":
             var a = [2];
