@@ -50,7 +50,8 @@ var tigasky = [
     ["ティガ（スカイ）", 5, 4, 4, 7, "O", "T-005", "0000cc", "ランバルト光弾", "f9ce1d"]
 ];
 var tigapow = [
-    ["ティガ（パワー）", 6, 5, 7, 4, "UR", "4-002", "ff0000", "デラシウム光流", "ff5252"]
+    ["ティガ（パワー）", 6, 5, 7, 4, "UR", "4-002", "ff0000", "デラシウム光流", "ff5252"],
+    ["ティガ(パワー)", 5, 5, 6, 4, "O", "T-058", "ff0000", "デラシウム光流", "ff5252"]
 ];
 var dyna = [
     ["ダイナ", 5, 6, 7, 4, "UR", "2-005", "0000cc", "ソルジェント光線", "f9ce1d"],
@@ -61,7 +62,8 @@ var dynamira = [
     ["ダイナ（ミラクル）", 5, 5, 4, 6, "OR", "2-006", "0000cc", "レボリウムウェーブ", "f9ce1d"]
 ];
 var dynastro = [
-    ["ダイナ（ストロング）", 7, 5, 6, 4, "UR", "4-003", "ff0000", "ガルネイトボンバー シューティングバージョン", "f9ce1d"]
+    ["ダイナ（ストロング）", 7, 5, 6, 4, "UR", "4-003", "ff0000", "ガルネイトボンバー シューティングバージョン", "f9ce1d"],
+    ["ダイナ(ストロング)", 6, 5, 5, 4, "O", "T-059", "ff0000", "ダイナックル", "ff5252"]
 ];
 var gaiaV2 = [
     ["ガイア（V2）", 4, 8, 4, 5, "OR", "1-006", "dd830c", "フォトンエッジ", "ff5252"],
@@ -79,6 +81,9 @@ var cosmos = [
     ["コスモス", 5, 6, 6, 5, "UR", "4-005", "2196f3", "ムーンライトスマッシュ", "f9ce1d"],
     ["コスモス", 4, 5, 4, 7, "O", "T-025", "2196f3", "ルナエキストラクト", "f9ce1d"],
     ["コスモス", 4, 5, 5, 6, "O", "P-004", "2196f3", "フルムーンレクト", "5ed361"]
+];
+var justice = [
+    ["ジャスティス", 5, 5, 5, 5, "O", "T-057", "ff0000", "ダグリューム光線", "f9ce1d"]
 ];
 var nexusred = [
     ["ネクサス（ジュネッス）", 6, 5, 6, 5, "UR", "3-003", "0000cc", "オーバーレイ・シュトローム", "f9ce1d"],
@@ -108,6 +113,9 @@ var zero = [
     ["ゼロ", 6, 5, 4, 5, "O", "P-006", "2196f3", "ゼロツインシュート", "f9ce1d"],
     ["ゼロ", 5, 5, 6, 4, "O", "P-009", "2196f3", "ゼロツインシュート", "f9ce1d"]
 ];
+var ulzero = [
+    ["ウルティメイトゼロ", 5, 7, 5, 5, "O", "T-056", "dd830c", "ソードレイ・ウルティメイトゼロ", "ff5252"]
+];
 var belial = [
     ["ベリアル", 6, 5, 7, 4, "UR", "2-007", "cc00cc", "デスシウム光線", "f9ce1d"],
     ["ベリアル", 4, 5, 7, 4, "OR", "3-014", "cc00cc", "ベリアルジェノサンダー", "ff5252"],
@@ -133,4 +141,4 @@ var x = [
 ];
 var tigas = tiga.concat(tigasky, tigapow);
 var aguls = agul.concat(agulV2);
-var card = [zoffy, man, seven, jack, ace, taro, leo, tiga, tigasky, tigapow, dyna, dynamira, dynastro, gaiaV2, agul, agulV2, cosmos, nexusred, max, mebius, hikari, zero, belial, ginga, victory, x, tigas, aguls];
+var card = [zoffy, man, seven, jack, ace, taro, leo, tiga, tigasky, tigapow, dyna, dynamira, dynastro, gaiaV2, agul, agulV2, cosmos, nexusred, max, mebius, hikari, zero, belial, ginga, victory, x, tigas, aguls, ulzero, justice];

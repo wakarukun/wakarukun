@@ -110,9 +110,15 @@ function gyakubiki(flag) {
             break;
         case "cosmos":
             var a = [16];
-            var b = [25];
-            fusioncolor = ["2196f3"];
-            fusionname = ["フルムーンザナディウム"];
+            var b = [25, 28];
+            fusioncolor = ["2196f3", "666666"];
+            fusionname = ["フルムーンザナディウム", "ウルトラマンレジェンド"];
+            break;
+        case "justice":
+            var a = [28];
+            var b = [16];
+            fusioncolor = ["666666"];
+            fusionname = ["ウルトラマンレジェンド"];
             break;
         case "nexus_red":
             var a = [17];
@@ -144,6 +150,12 @@ function gyakubiki(flag) {
             fusioncolor = ["0000cc", "ff0000", "0000cc"];
             fusionname = ["ハリケーンスラッシュ", "レオゼロナックル", "エメリウムスラッガー"];
             break;
+        case "ulzero":
+            var a = [29];
+            var b = [25];
+            fusioncolor = ["2196f3"];
+            fusionname = ["ウルトラマンX ゼロアーマー"];
+            break;
         case "belial":
             var a = [22];
             var b = [0, 11, 14, 15];
@@ -164,9 +176,9 @@ function gyakubiki(flag) {
             break;
         case "x":
             var a = [25];
-            var b = [16, 23];
-            fusioncolor = ["2196f3", "cc00cc"];
-            fusionname = ["フルムーンザナディウム", "ライトニングアタッカー"];
+            var b = [16, 23, 29];
+            fusioncolor = ["2196f3", "cc00cc", "2196f3"];
+            fusionname = ["フルムーンザナディウム", "ライトニングアタッカー", "ウルトラマンX ゼロアーマー"];
             break;
     }
     var counter = 0;
