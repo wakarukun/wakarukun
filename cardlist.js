@@ -141,4 +141,4 @@ var x = [
 ];
 var tigas = tiga.concat(tigasky, tigapow);
 var aguls = agul.concat(agulV2);
-var card = [zoffy, man, seven, jack, ace, taro, leo, tiga, tigasky, tigapow, dyna, dynamira, dynastro, gaiaV2, agul, agulV2, cosmos, nexusred, max, mebius, hikari, zero, belial, ginga, victory, x, tigas, aguls, ulzero, justice];
+var card = [zoffy, man, seven, jack, ace, taro, leo, tiga, tigasky, tigapow, dyna, dynamira, dynastro, gaiaV2, agul, agulV2, cosmos, nexusred, max, mebius, hikari, zero, belial, ginga, victory, x, tigas, aguls,　justice, ulzero];
