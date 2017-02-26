@@ -134,9 +134,9 @@ function gyakubiki(flag) {
             break;
         case "mebius":
             var a = [19];
-            var b = [5, 20];
-            fusioncolor = ["dd830c", "ff0000"];
-            fusionname = ["バーンマイト", "メビウスフェニックスブレイブ"];
+            var b = [5, 20, 23];
+            fusioncolor = ["dd830c", "ff0000", ""];
+            fusionname = ["バーンマイト", "メビウスフェニックスブレイブ", "メビュームエスペシャリー"];
             break;
         case "hikari":
             var a = [20];
@@ -164,9 +164,9 @@ function gyakubiki(flag) {
             break;
         case "ginga":
             var a = [23];
-            var b = [25, 24];
-            fusioncolor = ["cc00cc", "286f2c"];
-            fusionname = ["ライトニングアタッカー", "ギンガビクトリー"];
+            var b = [25, 24 ,19];
+            fusioncolor = ["cc00cc", "286f2c", ""];
+            fusionname = ["ライトニングアタッカー", "ギンガビクトリー", "メビュームエスペシャリー"];
             break;
         case "victory":
             var a = [24];
