@@ -117,7 +117,7 @@ function fusion_shin(Obj) {
         case "me":
             var a = 19;
             var b = 23;
-            fusioncolor = ""
+            fusioncolor = "666666"
             break;
     }
 
