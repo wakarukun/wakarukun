@@ -127,7 +127,7 @@ function fusion_shin(Obj) {
             break;
         case "sg":
             var a = [10, 10, 16];
-            var b = [16, 22, 22];
+            var b = [16, 21, 21];
             fusioncolor = ""
             break;
 
