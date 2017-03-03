@@ -142,7 +142,7 @@ function fusion_shin(Obj) {
     titlebefore.setAttribute("color", card[a[a_num]][0][7]);
     titlebefore.appendChild(document.createTextNode(card[a[a_num]][0][0]));
     var titleplus = document.createElement('font');
-    titleplus.setAttribute("color", "0000cc");
+    titleplus.setAttribute("color", "000000");
     titleplus.appendChild(document.createTextNode('+'));
     var titleafter = document.createElement('font');
     titleafter.setAttribute("color", card[b[b_num]][0][7]);
