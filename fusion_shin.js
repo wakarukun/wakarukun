@@ -6,7 +6,7 @@ function fusion_shin(Obj) {
     var flagship = 0;
     switch (O_value) {
         case "sz":
-            var a = [1];
+            var a = [1, 1, 1];
             var b = [7, 8, 9];
             fusioncolor = "cc00cc"
             break;
@@ -67,7 +67,7 @@ function fusion_shin(Obj) {
             break;
         case "kl":
             var a = [14, 15];
-            var b = [20];
+            var b = [20, 20];
             fusioncolor = "ff0000";
             break;
         case "ss":
@@ -102,7 +102,7 @@ function fusion_shin(Obj) {
             break;
         case "ts":
             var a = [14, 15];
-            var b = [22];
+            var b = [22, 22];
             fusioncolor = "000000"
             break;
         case "le":
@@ -134,7 +134,7 @@ function fusion_shin(Obj) {
     }
     var counter = 0;
     for(a_num = 0; a_num < a.length; a_num++){
-      for(b_num = 0; b_num < b.length; b_num++){
+      var b_num = a_num;
     var fusiontable = document.createDocumentFragment();
     var fragment = document.createDocumentFragment();
     var thbody = document.createDocumentFragment();
@@ -257,7 +257,6 @@ function fusion_shin(Obj) {
     }
     document.getElementById("list").appendChild(fusiontable);
     counter += 1;
-    }
   }
     document.myForm.Maker.selectedIndex=0;
     document.myForm.Computer.selectedIndex=0;

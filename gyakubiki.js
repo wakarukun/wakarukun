@@ -203,7 +203,7 @@ function gyakubiki(flag) {
         titleafter.setAttribute("color", card[b[b_num]][0][7]);
         titleafter.appendChild(document.createTextNode(card[b[b_num]][0][0]));
         var titlefin = document.createElement('font');
-        titlefin.setAttribute("color", fusioncolor);
+        titlefin.setAttribute("color", fusioncolor[b_num]);
         titlefin.appendChild(document.createTextNode('】'));
         title.appendChild(titlefont);
         title.appendChild(titlebefore);
