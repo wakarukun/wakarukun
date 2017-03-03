@@ -6,5 +6,7 @@ $(function() {
   $("#fusionTable3").tablesorter();
   $("#fusionTable4").tablesorter();
   $("#fusionTable5").tablesorter();
-  $("#fusionTable6").tablesorter();  
+  $("#fusionTable6").tablesorter();
+  $("#fusionTable7").tablesorter();
+  $("#fusionTable8").tablesorter();  
 });

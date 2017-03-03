@@ -192,6 +192,7 @@ function gyakubiki(flag) {
         var titlefont = document.createElement('font');
         titlefont.setAttribute("color", fusioncolor[b_num]);
         titlefont.appendChild(document.createTextNode(fusionname[b_num]));
+        titlefont.appendChild(document.createTextNode('【'+card[a[a_num]][0][0]+ '+' + card[b[b_num]][0][0] + '】'));
         title.appendChild(titlefont);
         var tables = document.createElement('table');
         tables.id = "fusionTable" + b_num;
