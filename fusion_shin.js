@@ -125,6 +125,12 @@ function fusion_shin(Obj) {
             var b = [24, 25, 25];
             fusioncolor = "0000cc"
             break;
+        case "sg":
+            var a = [10, 10, 16];
+            var b = [16, 22, 22];
+            fusioncolor = ""
+            break;
+
     }
     var counter = 0;
     for(a_num = 0; a_num < a.length; a_num++){
