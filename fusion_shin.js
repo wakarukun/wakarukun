@@ -3,127 +3,184 @@ function fusion_shin(Obj) {
     O_value = Obj.options[Obj.selectedIndex].value; //選択された項目の値を取得する
     T_value = Obj.options[Obj.selectedIndex].text;
     var fusioncolor;
+    var fusionwaza;
+    var wazacolor;
     var flagship = 0;
     switch (O_value) {
         case "sz":
             var a = [1, 1, 1];
             var b = [7, 8, 9];
             fusioncolor = "cc00cc"
+            fusionwaza = ["スペリオン光線", "スペリオン光輪"];
+            wazacolor = ["f9ce1d", "5ed361"];
             break;
         case "bm":
             var a = [5];
             var b = [19];
             fusioncolor = " dd830c"
+            fusionwaza = ["ストビュームダイナマイト", "ストビュームバースト"];
+            wazacolor = ["ff5252", "ff5252"];
             break;
         case "hs":
             var a = [3];
             var b = [21];
             fusioncolor = "0000cc"
+            fusionwaza = ["オーブスラッガーショット", "トライデントスラッシュ"];
+            wazacolor = ["f9ce1d", "ff5252"];
             break;
         case "tb":
             var a = [0];
             var b = [22];
-            fusioncolor = "ff0000"
+            fusioncolor = "ff0000";
+            fusionwaza = ["ゼットシウム光線", "ゼットシウム光輪"];
+            wazacolor = ["f9ce1d", "ff5252"];
             break;
         case "pv":
             var a = [13];
             var b = [24];
-            fusioncolor = "dd830c"
+              fusioncolor = "dd830c"
+              fusionwaza = ["フォトリウムナックル"];
+              wazacolor = ["ff5252"];
             break;
         case "fz":
             var a = [16];
             var b = [25];
             fusioncolor = "2196f3"
+            fusionwaza = ["フルディウム光線"];
+            wazacolor = ["f9ce1d"];
             break;
         case "la":
             var a = [23];
             var b = [25];
-            fusioncolor = "cc00cc"
+            fusioncolor = "cc00cc";
+            fusionwaza = ["アタッカーギンガエックス"];
+            wazacolor = ["f9ce1d"];
             break;
         case "sm":
             var a = [8];
             var b = [18];
-            fusioncolor = "286f2c"
+            fusioncolor = "286f2c";
+            fusionwaza = ["マクバルトアタック"];
+            wazacolor = ["5ed361"];
             break;
         case "zs":
             var a = [7];
             var b = [10];
-            fusioncolor = "666666"
+            fusioncolor = "666666";
+            fusionwaza = ["マルチフラッシュスライサー"];
+            wazacolor = ["ff5252"];
             break;
         case "lz":
             var a = [6];
             var b = [21];
-            fusioncolor = "ff0000"
+            fusioncolor = "ff0000";
+            fusionwaza = ["ナックルクロスビーム"];
+            wazacolor = ["f9ce1d"];
             break;
         case "tm":
             var a = [11];
             var b = [22];
             fusioncolor = "cc00cc";
+            fusionwaza = ["サンダーミラクルアタック"];
+            wazacolor = ["ff5252"];
             break;
         case "sa":
             var a = [2];
             var b = [4];
             fusioncolor = "286f2c";
+            fusionwaza = ["スラッガーエーススライサー"];
+            wazacolor = ["ff5252"];
             break;
         case "kl":
             var a = [14, 15];
             var b = [20, 20];
             fusioncolor = "ff0000";
+            fusionwaza = ["クラッシャーナイトリキデイター"];
+            wazacolor = ["f9ce1d"];
             break;
         case "ss":
             var a = [1];
             var b = [17];
             fusioncolor = "666666";
+            fusionwaza = ["ウルトラフルバースト"];
+            wazacolor = ["f9ce1d"];
             break;
         case "ps":
             var a = [9];
             var b = [12];
             fusioncolor = "ff0000";
+            fusionwaza = ["ガルラシウムボンバー"];
+            wazacolor = ["f9ce1d"];
             break;
         case "es":
             var a = [2];
             var b = [21];
             fusioncolor = "0000cc";
+            fusionwaza = ["ワイドスラッガーショット"];
+            wazacolor = ["f9ce1d"];
             break;
         case "gv":
             var a = [23];
             var b = [24];
             fusioncolor = "286f2c";
+            fusionwaza = ["ウルトラフュージョンシュート"];
+            wazacolor = ["f9ce1d"];
             break;
         case "vk":
             var a = [20];
             var b = [24];
             fusioncolor = "666666";
+            fusionwaza = ["ナイトビクトリウムシュート"];
+            wazacolor = ["f9ce1d"];
             break;
         case "mp":
             var a = [19];
             var b = [20];
             fusioncolor = "ff0000";
+            fusionwaza = ["メビュームナイトシュート"];
+            wazacolor = ["f9ce1d"];
             break;
         case "ts":
             var a = [14, 15];
             var b = [22, 22];
             fusioncolor = "000000"
+            fusionwaza = ["サンダーストリームネプチューン"];
+            wazacolor = ["ff5252"];
             break;
         case "le":
             var a = [28];
             var b = [16];
-            fusioncolor = "666666"
+            fusioncolor = "666666";
+            fusionwaza = ["スパークレジェンド"];
+            wazacolor = ["f9ce1d"];
             break;
         case "xz":
             var a = [29];
             var b = [25];
-            fusioncolor = "2196f3"
+            fusioncolor = "2196f3";
+            fusionwaza = ["ソードレイ・クロス・ゼロ"];
+            wazacolor = ["ff5252"];
             break;
         case "me":
             var a = [19];
             var b = [23];
-            fusioncolor = "666666"
+            fusioncolor = "666666";
+            fusionwaza = ["メビュースペシャリーブレード"];
+            wazacolor = ["f9ce1d"];
+            break;
+        case "bk":
+            var a = [0];
+            var b = [20];
+            fusioncolor = "666666";
+            fusionwaza = ["ナイト87シュート"];
+            wazacolor = [""];
             break;
         case "ot":
             var a = [23, 23, 24];
             var b = [24, 25, 25];
-            fusioncolor = "0000cc"
+            fusioncolor = "0000cc";
+            fusionwaza = ["トリニティウム光輪"];
+            wazacolor = ["5ed361"];
             break;
         case "sg":
             var a = [10, 10, 16];
@@ -161,6 +218,23 @@ function fusion_shin(Obj) {
     title.appendChild(titleplus);
     title.appendChild(titleafter);
     title.appendChild(titlefin);
+    var wazatables = document.createElement('table');
+    wazatables.setAttribute("class", "tablesorter")
+    var wazatr = document.createElement('tr');
+    wazatables.appendChild(wazatr);
+    var wazatd = document.createElement('td');
+    var syozi = document.createElement('b');
+    syozi.appendChild(document.createTextNode("所持技"));
+    wazatd.appendChild(syozi)
+    wazatables.appendChild(wazatd);
+    for(i = 0; i < fusionwaza.length; i++){
+      var wazatd = document.createElement('td');
+      wazatd.setAttribute("bgcolor", wazacolor[i]);
+      syoziwaza = document.createElement('b');
+      syoziwaza.appendChild(document.createTextNode(fusionwaza[i]));
+      wazatd.appendChild(syoziwaza);
+      wazatables.appendChild(wazatd);
+    }
     var tables = document.createElement('table');
     tables.id = "fusionTable" + counter;
     tables.className = 'tablesorter';
@@ -250,6 +324,7 @@ function fusion_shin(Obj) {
         flagship += 1;
     }
     fusiontable.appendChild(title);
+    fusiontable.appendChild(wazatables);
     fusiontable.appendChild(tables);
     if (counter == 0) {
         var clone = document.getElementById("list").cloneNode(false); //ガワだけ複製して…
