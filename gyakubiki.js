@@ -1,4 +1,4 @@
-function gyakubiki(flag) {
+﻿function gyakubiki(flag) {
     index_nub = document.myForm.Maker.selectedIndex;
     O_value = document.myForm.Maker.options[index_nub].value;
     T_value = document.myForm.Maker.options[index_nub].text;
@@ -54,11 +54,11 @@ function gyakubiki(flag) {
             break;
         case "taro":
             var a = [5];
-            var b = [19];
-            fusioncolor = ["dd830c"];
-            fusionname = ["バーンマイト"];
-            fusionwaza = [["ストビュームダイナマイト", "ストビュームバースト"]];
-            wazacolor = [["ff5252", "ff5252"]];
+            var b = [19, 18];
+            fusioncolor = ["dd830c", ""];
+            fusionname = ["バーンマイト", "ストリウムギャラクシー"];
+            fusionwaza = [["ストビュームダイナマイト", "ストビュームバースト"],["なんだろね"]];
+            wazacolor = [["ff5252", "ff5252"],[""]];
             break;
         case "leo":
             var a = [6];
@@ -166,11 +166,11 @@ function gyakubiki(flag) {
             break;
         case "max":
             var a = [18];
-            var b = [8];
-            fusioncolor = ["286f2c"];
-            fusionname = ["スカイダッシュマックス"];
-            fusionwaza = [["マクバルトアタック"]];
-            wazacolor = [["5ed361"]];
+            var b = [8, 5];
+            fusioncolor = ["286f2c", ""];
+            fusionname = ["スカイダッシュマックス", "ストリウムギャラクシー"];
+            fusionwaza = [["マクバルトアタック"],["なんだろね"]];
+            wazacolor = [["5ed361"], [""]];
             break;
         case "mebius":
             var a = [19];

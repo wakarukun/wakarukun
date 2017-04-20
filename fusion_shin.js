@@ -1,4 +1,4 @@
-function fusion_shin(Obj) {
+﻿function fusion_shin(Obj) {
     index_nub = Obj.selectedIndex; //選択された項目番号を取得する
     O_value = Obj.options[Obj.selectedIndex].value; //選択された項目の値を取得する
     T_value = Obj.options[Obj.selectedIndex].text;
@@ -173,6 +173,13 @@ function fusion_shin(Obj) {
             var b = [20];
             fusioncolor = "666666";
             fusionwaza = ["ナイト87シュート"];
+            wazacolor = [""];
+            break;
+        case "sg":
+            var a = [5];
+            var b = [18];
+            fusioncolor = "";
+            fusionwaza = ["なんだろね"];
             wazacolor = [""];
             break;
         case "ot":
