@@ -85,6 +85,4 @@ function status_shin() {
     }
     document.getElementById("list").appendChild(fusiontable);
     counter += 1;
-    document.myForm.Maker.selectedIndex=0;
-    document.myForm.Computer.selectedIndex=0;
 }
