@@ -77,7 +77,6 @@ function status_shin() {
         JSSyncLoad(['https://wakarukun.github.io/wakarukun/jquery.tablesorter.min.js', "https://wakarukun.github.io/wakarukun/sorter_fusion.js"]);
         flagship += 1;
     }
-    fusiontable.appendChild(title);
     fusiontable.appendChild(tables);
     if (counter == 0) {
         var clone = document.getElementById("list").cloneNode(false); //ガワだけ複製して…
