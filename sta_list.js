@@ -25,6 +25,8 @@ function status_shin() {
     hero_name.appendChild(document.createTextNode('キャラ'));
     var No = document.createElement('th');
     No.appendChild(document.createTextNode('No.'));
+    var rare = document.createElement('th');
+    rare.appendChild(document.createTextNode('レア'));
     tbody = document.createElement('tbody');
     thbody.appendChild(hissatsu);
     thbody.appendChild(tairyoku);
@@ -33,6 +35,7 @@ function status_shin() {
     thbody.appendChild(gokei);
     thbody.appendChild(hero_name);
     thbody.appendChild(No);
+    thbody.appendChild(rare);
     trbody1.appendChild(thbody);
     thead.appendChild(trbody1);
     for (p = 0; p < card.length; p++) {
@@ -60,9 +63,12 @@ function status_shin() {
             name2.appendChild(name2font);
             var hero_no = document.createElement('td');
             hero_no.appendChild(document.createTextNode(card[p][q][6]));
+            var rare = document.createElement('td');
+            rare.appendChild(document.createTextNode(card[p][q][5]));
             fragment.appendChild(sum_value);
             fragment.appendChild(name2);
             fragment.appendChild(hero_no);
+            fragment.appendChild(rare);
             var tr = document.createElement('tr');
             tr.appendChild(fragment);
             tdbody.appendChild(tr);
