@@ -17,11 +17,9 @@ font-size: 12px;
 td {
 text-align: center;
 vertical-align: middle;
-}
-
-td.menu{
 padding: 2px 5px;
 }
+
 /*label {
     margin-right: 10px;
     width:100px;
