@@ -20,5 +20,6 @@ vertical-align: top;
 }
 label {
     margin-right: 10px;
+    width:120px;
     float: left;
 }
