@@ -14,6 +14,7 @@ function Calc() {
   var syogo = document.syogo.sy_li.selectedIndex;
   var ha_item = document.item.ha_item.selectedIndex;
   var hi_item = document.item.hi_item.selectedIndex;
+  var ta_item = document.item.ta_item.selectedIndex;
   var go_item = document.item.good_item.selectedIndex;
   var solo = document.Character.parent.selectedIndex;
   if (solo == 1) {
@@ -908,7 +909,7 @@ function Calc() {
     break;
   }
   var hi_tr = hi_st * (hi_ke + hi_sk1 + hi_sk2 + hi_sy + hi_item * 0.05 + go_item * 0.03) * hi_zy;
-  var hp_tr = ta_st * (ta_ke + ta_sk1 + ta_sk2 + ta_sy) * ta_zy;
+  var hp_tr = ta_st * (ta_ke + ta_sk1 + ta_sk2 + ta_sy + ta_item * 0.05) * ta_zy;
   var ko_tr = ko_st * (ko_ke + ko_sk1 + ko_sk2 + ko_sy) * ko_zy;
   var ha_tr = ha_st * (ha_ke + ha_sk1 + ha_sk2 + ha_sy + ha_item * 0.05) * ha_zy;
   document.ans.panch.value = Math.round(ko_tr * 18 * ra_sk1 * ra_sk2);
