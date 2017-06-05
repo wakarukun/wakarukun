@@ -913,11 +913,23 @@ function Calc() {
   var ko_tr = ko_st * (ko_ke + ko_sk1 + ko_sk2 + ko_sy) * ko_zy;
   var ha_tr = ha_st * (ha_ke + ha_sk1 + ha_sk2 + ha_sy + ha_item * 0.05) * ha_zy;
   document.ans.panch.value = Math.round(ko_tr * 18 * ra_sk1 * ra_sk2);
+  document.ans.panch_min.value = Math.round(ko_tr * 18 * ra_sk1 * ra_sk2 * 0.95);
+  document.ans.panch_max.value = Math.round(ko_tr * 18 * ra_sk1 * ra_sk2 * 47 / 45);
   document.ans.kikku.value = Math.round((ko_tr * 10 + ha_tr * 8) * ra_sk1 * ra_sk2);
+  document.ans.kikku_min.value = Math.round((ko_tr * 10 + ha_tr * 8 * 8 / 9) * ra_sk1 * ra_sk2);
+  document.ans.kikku_max.value = Math.round((ko_tr * 10 + ha_tr * 8 * 1.1) * ra_sk1 * ra_sk2);
   document.ans.kosen.value = Math.round((ko_tr * 10 + hi_tr * 8) * ra_sk1 * ra_sk2);
+  document.ans.kosen_min.value = Math.round((ko_tr * 10 + hi_tr * 8 * 8 / 9) * ra_sk1 * ra_sk2);
+  document.ans.kosen_max.value = Math.round((ko_tr * 10 + hi_tr * 8 * 1.1) * ra_sk1 * ra_sk2);
   document.ans.HP.value = Math.round(hp_tr * 800);
   document.ans.yelhi.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2);
-  document.ans.grehi.value = Math.round(hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2;
-  document.ans.redhi.value = Math.round(hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2;
+  document.ans.yelhi_min.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2 * 0.9);
+  document.ans.yelhi_max.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2 * 1.1);
+  document.ans.grehi.value = Math.round((hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2);
+  document.ans.grehi_min.value = Math.round((hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2 * 0.9);
+  document.ans.grehi_max.value = Math.round((hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2 * 1.1);
+  document.ans.redhi.value = Math.round((hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2);
+  document.ans.redhi_min.value = Math.round((hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2 * 0.9);
+  document.ans.redhi_max.value = Math.round((hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2 * 1.1);
   document.ans.count.value = Math.round((8 + 0.25 * ha_tr) * 100) /100;
 }
