@@ -16,7 +16,11 @@ font-size: 12px;
 }
 td {
 text-align: center;
-vertical-align: top;
+vertical-align: middle;
+}
+
+td.menu{
+  style="padding: 2px 5px;"
 }
 /*label {
     margin-right: 10px;
