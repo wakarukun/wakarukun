@@ -1,0 +1,25 @@
+
+input.param {
+width: 80px;
+}
+
+input.result {
+width: 80px;
+}
+
+input, select, textarea {
+font-size: 100%;
+}
+
+table{
+font-size: 10px;
+}
+td {
+text-align: center;
+vertical-align: top;
+}
+label {
+    margin-right: 10px;
+    width:80px;
+    float: left;
+}
