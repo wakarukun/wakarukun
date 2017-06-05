@@ -918,5 +918,5 @@ function Calc() {
   document.ans.yelhi.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2);
   document.ans.grehi.value = Math.round(hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2;
   document.ans.redhi.value = Math.round(hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2;
-  document.ans.count.value = (8 + 0.25 * ha_tr);
+  document.ans.count.value = Math.round((8 + 0.25 * ha_tr) * 100) /100;
 }
