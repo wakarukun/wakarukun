@@ -80,7 +80,7 @@ function Calc() {
       if (front == 0) {
         hi_ke = 1.66;
         ta_ke = 1.1;
-        ko_ke = 1.22;
+        ko_ke = 1.2;
         ha_ke = 1.1;
       }
       if (front == 1) {
@@ -105,25 +105,25 @@ function Calc() {
       }
       if (front == 2) {
         hi_ke = 1.52;
-        ta_ke = 1.1;
+        ta_ke = 1.2;
         ko_ke = 1.22;
         ha_ke = 1.26;
       }
       if (front == 3) {
         hi_ke = 1.52;
-        ta_ke = 1.1;
+        ta_ke = 1.2;
         ko_ke = 1.22;
         ha_ke = 1.30;
       }
       if (front == 4) {
         hi_ke = 1.34;
-        ta_ke = 1.1;
+        ta_ke = 1.2;
         ko_ke = 1.31;
         ha_ke = 1.36;
       }
       if (front == 5) {
         hi_ke = 1.34;
-        ta_ke = 1.1;
+        ta_ke = 1.2;
         ko_ke = 1.31;
         ha_ke = 1.40;
       }
@@ -185,7 +185,7 @@ function Calc() {
       }
       if (front == 1) {
         hi_ke = 1.54;
-        ta_ke = 1.1;
+        ta_ke = 1.2;
         ko_ke = 1.31;
         ha_ke = 1.1;
       }
@@ -479,9 +479,9 @@ function Calc() {
       ha_ke = 1.0;
       break;
     case "dyna":
-      hi_ke = 1.2;
+      hi_ke = 1.3;
       ta_ke = 1.1;
-      ko_ke = 1.3;
+      ko_ke = 1.2;
       ha_ke = 1.0;
       break;
     case "dyna_miracle":
@@ -562,7 +562,7 @@ function Calc() {
       ko_ke = 1.0;
       ha_ke = 1.0;
       break;
-    case "gina":
+    case "ginga":
       hi_ke = 1.4;
       ta_ke = 1.0;
       ko_ke = 1.1;
