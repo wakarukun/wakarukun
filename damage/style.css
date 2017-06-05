@@ -4,7 +4,7 @@ width: 80px;
 }
 
 input.result {
-width: 80px;
+width: 50px;
 }
 
 input, select, textarea {
@@ -18,8 +18,8 @@ td {
 text-align: center;
 vertical-align: top;
 }
-label {
+/*label {
     margin-right: 10px;
     width:100px;
     float: left;
-}
+}*/
