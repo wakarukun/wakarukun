@@ -922,14 +922,14 @@ function Calc() {
   document.ans.kosen_min.value = Math.round((ko_tr * 10 + hi_tr * 8 * 8 / 9) * ra_sk1 * ra_sk2);
   document.ans.kosen_max.value = Math.round((ko_tr * 10 + hi_tr * 8 * 1.1) * ra_sk1 * ra_sk2);
   document.ans.HP.value = Math.round(hp_tr * 800);
-  document.ans.yelhi.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2 * (1.03 ** go_item));
-  document.ans.yelhi_min.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2 * 0.9 * (1.03 ** go_item));
-  document.ans.yelhi_max.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2 * 1.1 * (1.03 ** go_item));
-  document.ans.grehi.value = Math.round((hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2 * (1.03 ** go_item));
-  document.ans.grehi_min.value = Math.round((hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2 * 0.9 * (1.03 ** go_item));
-  document.ans.grehi_max.value = Math.round((hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2 * 1.1 * (1.03 ** go_item));
-  document.ans.redhi.value = Math.round((hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2 * (1.03 ** go_item));
-  document.ans.redhi_min.value = Math.round((hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2 * 0.9 * (1.03 ** go_item));
-  document.ans.redhi_max.value = Math.round((hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2 * 1.1 * (1.03 ** go_item));
+  document.ans.yelhi.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2 * (1.04 ** go_item));
+  document.ans.yelhi_min.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2 * 0.9 * (1.04 ** go_item));
+  document.ans.yelhi_max.value = Math.round(hi_tr * 250 * hw_sk1 * hw_sk2 * 1.1 * (1.04 ** go_item));
+  document.ans.grehi.value = Math.round((hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2 * (1.04 ** go_item));
+  document.ans.grehi_min.value = Math.round((hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2 * 0.9 * (1.04 ** go_item));
+  document.ans.grehi_max.value = Math.round((hi_tr * 4 + ha_tr * 6) * 25 * hw_sk1 * hw_sk2 * 1.1 * (1.04 ** go_item));
+  document.ans.redhi.value = Math.round((hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2 * (1.04 ** go_item));
+  document.ans.redhi_min.value = Math.round((hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2 * 0.9 * (1.04 ** go_item));
+  document.ans.redhi_max.value = Math.round((hi_tr * 4 + ko_tr * 6) * 25 * hw_sk1 * hw_sk2 * 1.1 * (1.04 ** go_item));
   document.ans.count.value = Math.round((8 + 0.25 * ha_tr) * 100) /100;
 }
