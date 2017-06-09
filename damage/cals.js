@@ -451,8 +451,8 @@ function Calc() {
     case "leo":
       hi_ke = 1.2;
       ta_ke = 1.2;
-      ko_ke = 1.0;
-      ha_ke = 1.2;
+      ko_ke = 1.2;
+      ha_ke = 1.0;
       break;
     case "eighty":
       hi_ke = 1.3;
